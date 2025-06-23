@@ -50,7 +50,7 @@ const OurStory = () => {
                 </p>
               </div>
               <div
-                className="lg:w-1/2 md:w-1/2 w-full bg-red-500 p-6 text-white rounded-lg bg-center bg-cover bg-no-repeat"
+                className="lg:w-1/2 md:w-1/2 w-full bg-red-500 p-6 text-white rounded-lg bg-center bg-cover bg-no-repeat h-screen md:h-auto"
                 style={{
                   backgroundImage: `url('https://donors.creedcreatives.net/image/blood-bag.jpg')`,
                 }}

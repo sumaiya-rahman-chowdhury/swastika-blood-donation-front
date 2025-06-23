@@ -43,7 +43,7 @@ export default function WhatWeDoSection({
           fill
           src={image}
           alt={title}
-          className="rounded-lg object-cover w-full h-auto"
+          className="rounded-lg object-cover "
         />
       </div>
     </section>

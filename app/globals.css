@@ -1,3 +1,37 @@
 @import "tailwindcss";
 
 
+.miniline{
+  color: red;
+  text-align: center;
+}
+.headline {
+  color: red;
+  text-align: center;
+  font-size: 30px;
+  margin: 20px 0;
+  font-weight: bold;
+}
+.lebel-tag {
+  color: red;
+  font-weight: 500;
+}
+.form-bg {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(248, 113, 113, 0.1),
+    /* from-red-400/10 */ rgba(219, 234, 254, 0.05),
+    /* via-blue-100/5 */ rgba(252, 165, 165, 0.1) /* to-red-300/10 */
+  );
+
+  /* Blur effect */
+  backdrop-filter: blur(16px); /* backdrop-blur-lg */
+
+  /* Border */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* border border-white/20 */
+
+  /* Additional recommended properties */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  border-radius: 0.5rem; /* Optional: if you want rounded corners */
+}

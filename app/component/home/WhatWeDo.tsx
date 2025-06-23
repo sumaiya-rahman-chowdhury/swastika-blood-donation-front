@@ -64,7 +64,7 @@ function WhatWeDo() {
       <motion.div
         initial="hidden"
         whileInView="inView"
-        viewport={{ once: true, amount: 0.3 }} // Triggers when 30% of the element is visible
+        viewport={{ once: true, amount: 0.3 }} 
         variants={{
           hidden: { opacity: 0, y: -50 },
           inView: {
